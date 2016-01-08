@@ -7,11 +7,21 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sSam</sprite>
+    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\sArms</sprite>
     <sprite>sprites\sSamWalk</sprite>
-    <sprite>sprites\sWalkCopy</sprite>
-    <sprite>sprites\sFloor</sprite>
-    <sprite>sprites\sPills</sprite>
-    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\sItemCollisions</sprite>
+    <sprites name="Terrain">
+      <sprite>sprites\sFloor</sprite>
+    </sprites>
+    <sprites name="Copy">
+      <sprite>sprites\sSamCopy</sprite>
+      <sprite>sprites\sWalkCopy</sprite>
+    </sprites>
+    <sprites name="Objects">
+      <sprite>sprites\sPills</sprite>
+      <sprite>sprites\sAmmo</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,8 +29,10 @@
     <object>objects\oSam</object>
     <object>objects\oFloor</object>
     <object>objects\oPills</object>
-    <object>objects\object3</object>
-    <object>objects\object4</object>
+    <object>objects\oAmmo</object>
+    <object>objects\oCounter</object>
+    <object>objects\oItemCollision</object>
+    <object>objects\oArms</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
